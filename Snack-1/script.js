@@ -11,7 +11,7 @@ while (sum < 50) {
 
     let number = + userNumber;
 
-    if (isNaN(number) || (sum + number) > 50) {
+    if (isNaN(number)) {
 
         alert("Inserisci un numero valido.");
 
