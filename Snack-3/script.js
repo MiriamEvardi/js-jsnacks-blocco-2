@@ -10,9 +10,9 @@ let animals = ["horse", " elephant", " axolotl", " spider", " panda"];
 while (pets.length !== animals.length) {
 
     if (pets.length < animals.length) {
-        pets.push(" parrot");
+        pets.push(prompt(" inserisci un animale domestico"));
     } else {
-        animals.push(" snake");
+        animals.push(prompt("inserisci un animale non domestico"));
     }
 }
 
