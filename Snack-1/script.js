@@ -8,8 +8,8 @@ let sum = 0;
 
 while (sum < 50) {
     let userNumber = prompt("Inserisci un numero");
-
     let number = + userNumber;
+
 
     if (isNaN(number)) {
 
@@ -18,7 +18,9 @@ while (sum < 50) {
     } else {
         array.push(number);
         sum += number;
+        document.getElementById("user-number").innerText = "La somma dei numeri che hai inserito è : " + sum;
     }
 }
 
-document.getElementById("number-sum").innerText = "La parola più corta è: " + array;
+
+document.getElementById("number-sum").innerText = "I numeri che hai inserito sono : " + array;
